@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBank: Erste × Revolut × Wise Hybrid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="iphone-frame">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <span>
+              <i class="fas fa-signal"></i>
+              <i class="fas fa-wifi"></i>
+              <i class="fas fa-battery-three-quarters"></i>
+            </span>
+          </div>
+          <div class="pages">
+            <div id="home-page" class="page active">
+              <div class="app-header">
+                <div class="logo">
+                  <div class="logo-circle">$</div>
+                  <div class="app-name">UBank</div>
+                </div>
+                <div class="notification-icon">
+                  <i class="fas fa-bell"></i>
+                  <div class="notification-badge">2</div>
+                </div>
+              </div>
+              <div class="app-content">
+                <h2 class="section-title">My Accounts</h2>
+                <div class="accounts-container">
+                  <div class="account-card">
+                    <div class="account-type">Personal Account</div>
+                    <div class="account-name">Alex Johnson</div>
+                    <div class="account-balance">€12,560.40</div>
+                    <div class="account-details">
+                      <span>•••• 3568</span>
+                      <span>12/24</span>
+                    </div>
+                    <div class="card-chip">
+                      <i class="fas fa-microchip"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="account-card"
+                    style="background: linear-gradient(45deg, #26c281, #166a43)"
+                  >
+                    <div class="account-type">Business Account</div>
+                    <div class="account-name">Design Studio</div>
+                    <div class="account-balance">€8,270.15</div>
+                    <div class="account-details">
+                      <span>•••• 7812</span>
+                      <span>10/25</span>
+                    </div>
+                    <div class="card-chip">
+                      <i class="fas fa-microchip"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="account-card"
+                    style="background: linear-gradient(45deg, #ee5253, #ff6b6b)"
+                  >
+                    <div class="account-type">Savings</div>
+                    <div class="account-name">Vacation Fund</div>
+                    <div class="account-balance">€2,150.80</div>
+                    <div class="account-details">
+                      <span>•••• 9812</span>
+                      <span>06/25</span>
+                    </div>
+                    <div class="card-chip">
+                      <i class="fas fa-microchip"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="quick-actions">
+                  <div class="action" onclick="navigateTo('transfer-page')">
+                    <div class="action-circle">
+                      <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <div class="action-text">Transfer</div>
+                  </div>
+                  <div class="action" onclick="navigateTo('cards-page')">
+                    <div class="action-circle">
+                      <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="action-text">Cards</div>
+                  </div>
+                  <div class="action">
+                    <div class="action-circle">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="action-text">Invest</div>
+                  </div>
+                  <div class="action">
+                    <div class="action-circle">
+                      <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="action-text">Exchange</div>
+                  </div>
+                </div>
+                <div class="section-title">
+                  <span>Recent Transactions</span>
+                  <span>View All</span>
+                </div>
+                <div class="form-group" style="margin-bottom: 20px">
+                  <input
+                    type="text"
+                    id="transaction-search"
+                    class="form-control"
+                    placeholder="Search transactions (e.g., 'Coffee', '€15', 'Apple Music')"
+                  />
+                </div>
+                <div
+                  class="transactions-container"
+                  id="transactions-list"
+                ></div>
+                <button
+                  id="show-more-btn"
+                  class="btn show-more-btn"
+                  onclick="loadMoreTransactions()"
+                >
+                  Show More
+                </button>
+
+                <div
+                  class="section-title"
+                  style="margin-bottom: 0; margin-top: 15px"
+                >
+                  <span>Financial Summary</span>
+                </div>
+                <div class="stats-container">
+                  <div
+                    class="stat-card"
+                    style="padding-right: 0px; padding-left: 15px"
+                  >
+                    <div class="stat-title">Monthly Spending</div>
+                    <div class="stat-value">€1,200.50</div>
+                    <div class="stat-trend">
+                      <i class="fas fa-arrow-down"></i> 12% vs last month
+                    </div>
+                  </div>
+                  <div
+                    class="stat-card"
+                    style="padding-right: 0px; padding-left: 0px"
+                  >
+                    <div class="stat-title">Investments</div>
+                    <div class="stat-value">€8,562.45</div>
+                    <div class="stat-trend">
+                      <i class="fas fa-arrow-up"></i> 6.2% this month
+                    </div>
+                  </div>
+                </div>
+                <div class="chart-container">
+                  <canvas id="accountChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div id="transfer-page" class="page">
+              <div class="page-header">
+                <button class="back-btn" onclick="navigateTo('home-page')">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <h2 class="section-title" style="margin-bottom: 0">Transfer</h2>
+              </div>
+              <div class="app-content">
+                <div class="transfer-card">
+                  <div class="form-group">
+                    <label>From account</label>
+                    <div class="select-container">
+                      <select class="form-control">
+                        <option>Personal Account •••• 3568 (€12,560.40)</option>
+                        <option>Business Account •••• 7812 (€8,270.15)</option>
+                        <option>Savings •••• 9812 (€2,150.80)</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Recipient</label>
+                    <div class="select-container">
+                      <select class="form-control">
+                        <option>New Recipient</option>
+                        <option>Jane Smith (•••• 6512)</option>
+                        <option>Design Studio (•••• 9764)</option>
+                        <option>Marketing Agency (•••• 3340)</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Amount</label>
+                    <div class="form-control">
+                      €<input
+                        type="number"
+                        placeholder="0.00"
+                        style="
+                          border: none;
+                          width: 90%;
+                          padding: 0;
+                          font-size: 16px;
+                        "
+                        value="250.00"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Reference (optional)</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="E.g. Dinner payment"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label>Send on</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      value="2023-10-28"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="btn"
+                  onclick="showMessage('Money sent successfully!')"
+                >
+                  Send Money
+                </button>
+              </div>
+            </div>
+            <div id="cards-page" class="page">
+              <div class="page-header">
+                <button class="back-btn" onclick="navigateTo('home-page')">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <h2 class="section-title" style="margin-bottom: 0">My Cards</h2>
+              </div>
+              <div class="app-content">
+                <div class="section-title">
+                  <span>Physical Cards</span>
+                  <span><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="cards-grid">
+                  <div class="card-item">
+                    <div
+                      class="card-icon"
+                      style="
+                        background: linear-gradient(45deg, #2c7be5, #5540e8);
+                      "
+                    >
+                      $
+                    </div>
+                    <div class="card-name">Personal Card</div>
+                    <div class="card-last4">•••• 3568</div>
+                    <div class="card-amount">€12,560.40</div>
+                  </div>
+                  <div class="card-item">
+                    <div
+                      class="card-icon"
+                      style="
+                        background: linear-gradient(45deg, #26c281, #166a43);
+                      "
+                    >
+                      $
+                    </div>
+                    <div class="card-name">Business Card</div>
+                    <div class="card-last4">•••• 7812</div>
+                    <div class="card-amount">€2,150.00</div>
+                  </div>
+                </div>
+                <div class="section-title">
+                  <span>Virtual Cards</span>
+                  <span><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="cards-grid">
+                  <div class="card-item">
+                    <div
+                      class="card-icon"
+                      style="
+                        background: linear-gradient(45deg, #7e22ce, #c026d3);
+                      "
+                    >
+                      $
+                    </div>
+                    <div class="card-name">Amazon Card</div>
+                    <div class="card-last4">•••• 2054</div>
+                    <div class="card-amount">€350.00</div>
+                  </div>
+                  <div class="card-item">
+                    <div
+                      class="card-icon"
+                      style="
+                        background: linear-gradient(45deg, #ea580c, #f97316);
+                      "
+                    >
+                      $
+                    </div>
+                    <div class="card-name">Travel Card</div>
+                    <div class="card-last4">•••• 6237</div>
+                    <div class="card-amount">€1,200.00</div>
+                  </div>
+                  <div class="card-item">
+                    <div
+                      class="card-icon"
+                      style="
+                        background: linear-gradient(45deg, #2563eb, #0284c7);
+                      "
+                    >
+                      $
+                    </div>
+                    <div class="card-name">Payments Card</div>
+                    <div class="card-last4">•••• 8842</div>
+                    <div class="card-amount">€450.00</div>
+                  </div>
+                  <div class="card-item">
+                    <div
+                      class="card-icon"
+                      style="
+                        background: linear-gradient(45deg, #dc2626, #ef4444);
+                      "
+                    >
+                      $
+                    </div>
+                    <div class="card-name">Entertainment</div>
+                    <div class="card-last4">•••• 1579</div>
+                    <div class="card-amount">€75.00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="budget-page" class="page">
+              <div class="page-header">
+                <button class="back-btn" onclick="navigateTo('home-page')">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <h2 class="section-title" style="margin-bottom: 0">
+                  Budget & Expenses
+                </h2>
+              </div>
+              <div class="app-content">
+                <div class="section-title">
+                  <span>Current Budgets</span>
+                  <span><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="budget-category">
+                  <div class="budget-icon">
+                    <i class="fas fa-utensils"></i>
+                  </div>
+                  <div class="budget-info">
+                    <div class="budget-name">Groceries & Dining</div>
+                    <div class="budget-progress">
+                      <div class="progress-bar" style="width: 65%"></div>
+                    </div>
+                    <div class="budget-amount">
+                      <span>€210 / €320</span>
+                      <span>65%</span>
+                    </div>
+                  </div>
+                  <button
+                    class="get-tips-btn"
+                    onclick="getBudgetTips('Groceries & Dining', 210, 320)"
+                  >
+                    Get Tips ✨
+                  </button>
+                </div>
+                <div class="budget-category">
+                  <div class="budget-icon">
+                    <i class="fas fa-car"></i>
+                  </div>
+                  <div class="budget-info">
+                    <div class="budget-name">Transportation</div>
+                    <div class="budget-progress">
+                      <div
+                        class="progress-bar"
+                        style="
+                          width: 42%;
+                          background: linear-gradient(
+                            to right,
+                            #3b82f6,
+                            #60a5fa
+                          );
+                        "
+                      ></div>
+                    </div>
+                    <div class="budget-amount">
+                      <span>€84 / €200</span>
+                      <span>42%</span>
+                    </div>
+                  </div>
+                  <button
+                    class="get-tips-btn"
+                    onclick="getBudgetTips('Transportation', 84, 200)"
+                  >
+                    Get Tips ✨
+                  </button>
+                </div>
+                <div class="budget-category">
+                  <div class="budget-icon">
+                    <i class="fas fa-home"></i>
+                  </div>
+                  <div class="budget-info">
+                    <div class="budget-name">Housing</div>
+                    <div class="budget-progress">
+                      <div
+                        class="progress-bar"
+                        style="
+                          width: 90%;
+                          background: linear-gradient(
+                            to right,
+                            #ef4444,
+                            #f87171
+                          );
+                        "
+                      ></div>
+                    </div>
+                    <div class="budget-amount">
+                      <span>€900 / €1,000</span>
+                      <span>90%</span>
+                    </div>
+                  </div>
+                  <button
+                    class="get-tips-btn"
+                    onclick="getBudgetTips('Housing', 900, 1000)"
+                  >
+                    Get Tips ✨
+                  </button>
+                </div>
+                <div class="budget-category">
+                  <div class="budget-icon">
+                    <i class="fas fa-gamepad"></i>
+                  </div>
+                  <div class="budget-info">
+                    <div class="budget-name">Entertainment</div>
+                    <div class="budget-progress">
+                      <div
+                        class="progress-bar"
+                        style="
+                          width: 35%;
+                          background: linear-gradient(
+                            to right,
+                            #8b5cf6,
+                            #a78bfa
+                          );
+                        "
+                      ></div>
+                    </div>
+                    <div class="budget-amount">
+                      <span>€70 / €200</span>
+                      <span>35%</span>
+                    </div>
+                  </div>
+                  <button
+                    class="get-tips-btn"
+                    onclick="getBudgetTips('Entertainment', 70, 200)"
+                  >
+                    Get Tips ✨
+                  </button>
+                </div>
+                <div
+                  class="chart-container"
+                  style="
+                    margin-bottom: 5px;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                  "
+                >
+                  <canvas id="budgetChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div id="receipt-page" class="page">
+              <div class="page-header">
+                <button class="back-btn" onclick="navigateBack()">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <h2 class="section-title" style="margin-bottom: 0">
+                  Transaction Details
+                </h2>
+              </div>
+              <div class="app-content">
+                <div class="receipt-container" id="receipt-container-to-export">
+                  <div class="receipt-header">
+                    <div
+                      class="transaction-icon"
+                      id="receipt-icon"
+                      style="
+                        display: inline-flex;
+                        width: 50px;
+                        height: 50px;
+                        background: rgba(255, 255, 255, 0.2);
+                      "
+                    >
+                      <i class="fas fa-shopping-cart" style="color: white"></i>
+                    </div>
+                    <div class="receipt-title" id="transaction-merchant"></div>
+                    <div class="receipt-amount" id="transaction-amount"></div>
+                    <div class="receipt-status">Completed</div>
+                  </div>
+                  <div class="receipt-content-main">
+                    <div class="receipt-items-section">
+                      <h4 class="receipt-section-title">Items</h4>
+                      <div id="receipt-items-list"></div>
+                    </div>
+
+                    <div class="receipt-summary-section">
+                      <div class="receipt-row receipt-subtotal">
+                        <div class="receipt-label">Subtotal</div>
+                        <div class="receipt-value" id="receipt-subtotal"></div>
+                      </div>
+                      <div class="receipt-row receipt-tax">
+                        <div class="receipt-label">Tax</div>
+                        <div class="receipt-value" id="receipt-tax"></div>
+                      </div>
+                      <div class="receipt-row receipt-total">
+                        <div class="receipt-label">Total</div>
+                        <div class="receipt-value" id="receipt-total"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="general-transaction-details">
+                  <div class="receipt-row">
+                    <div class="receipt-label">Date</div>
+                    <div class="receipt-value" id="transaction-date"></div>
+                  </div>
+                  <div class="receipt-row">
+                    <div class="receipt-label">Type</div>
+                    <div class="receipt-value" id="transaction-type"></div>
+                  </div>
+                  <div class="receipt-row">
+                    <div class="receipt-label">Card Used</div>
+                    <div class="receipt-value">•••• 3568 (Personal)</div>
+                  </div>
+                  <div class="receipt-row">
+                    <div class="receipt-label">Reference</div>
+                    <div class="receipt-value" id="transaction-reference"></div>
+                  </div>
+                  <div class="receipt-row">
+                    <div class="receipt-label">Transaction ID</div>
+                    <div class="receipt-value">TX-2398-8573-1294</div>
+                  </div>
+                  <div class="receipt-row">
+                    <div class="receipt-label">Authorization Code</div>
+                    <div class="receipt-value">A9F8K34B</div>
+                  </div>
+                </div>
+
+                <div class="receipt-actions">
+                  <button class="btn btn-small" onclick="exportReceiptAsPdf()">
+                    <i class="fas fa-download"></i> Export Receipt
+                  </button>
+                  <button
+                    class="btn btn-small"
+                    onclick="showMessage('Receipt sent to alex.johnson@email.com')"
+                  >
+                    <i class="fas fa-share-alt"></i> Send Receipt
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div id="insights-page" class="page">
+              <div class="page-header">
+                <button class="back-btn" onclick="navigateTo('home-page')">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <h2 class="section-title" style="margin-bottom: 0">
+                  AI Insights
+                </h2>
+              </div>
+              <div class="app-content">
+                <div class="insights-card">
+                  <div class="form-group">
+                    <label for="insight-query">Ask about your finances:</label>
+                    <textarea
+                      id="insight-query"
+                      class="form-control"
+                      rows="4"
+                      placeholder="e.g., 'Summarize my spending last month' or 'How can I save money on groceries?'"
+                    ></textarea>
+                  </div>
+                  <button class="btn" onclick="getFinancialInsights()">
+                    Get Insights
+                  </button>
+                  <div id="insight-response" class="insight-response">
+                    <p class="placeholder-text">
+                      Your financial insights will appear here.
+                    </p>
+                  </div>
+                  <div
+                    id="insight-loading"
+                    class="loading-indicator"
+                    style="display: none"
+                  >
+                    <i class="fas fa-spinner fa-spin"></i> Generating
+                    insights...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-bar">
+            <div class="nav-item active" onclick="navigateTo('home-page')">
+              <div class="nav-icon"><i class="fas fa-home"></i></div>
+              <div>Home</div>
+            </div>
+            <div class="nav-item" onclick="navigateTo('cards-page')">
+              <div class="nav-icon"><i class="fas fa-wallet"></i></div>
+              <div>Cards</div>
+            </div>
+            <div class="nav-item" onclick="navigateTo('budget-page')">
+              <div class="nav-icon"><i class="fas fa-chart-pie"></i></div>
+              <div>Budget</div>
+            </div>
+            <div class="nav-item" onclick="navigateTo('insights-page')">
+              <div class="nav-icon"><i class="fas fa-lightbulb"></i></div>
+              <div>Insights</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="message-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="hideMessage()">&times;</span>
+        <p id="modal-message"></p>
+        <button class="modal-btn" onclick="hideMessage()">OK</button>
+      </div>
+    </div>
+
+    <div id="budget-tips-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="hideBudgetTips()">&times;</span>
+        <h3>Budget Tips for <span id="budget-tips-category"></span></h3>
+        <div id="budget-tips-content" class="insight-response"></div>
+        <div
+          id="budget-tips-loading"
+          class="loading-indicator"
+          style="display: none"
+        >
+          <i class="fas fa-spinner fa-spin"></i> Generating tips...
+        </div>
+        <button class="modal-btn" onclick="hideBudgetTips()">Close</button>
+      </div>
+    </div>
+
+    <div id="pdf-loading-modal" class="modal">
+      <div class="modal-content">
+        <i class="fas fa-spinner fa-spin fa-3x" style="color: #0078d7"></i>
+        <p style="margin-top: 15px">Generating PDF receipt...</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

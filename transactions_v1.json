@@ -1,0 +1,3322 @@
+[
+  {
+    "merchant": "Amazon",
+    "category": "Online Retail",
+    "items": [
+      {
+        "name": "Crocs Unisex Classic Clog",
+        "price": 46.0,
+        "tax": 20,
+        "net_price": 38.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Gildan Men\\'s Crew T-Shirts (5er-Pack)",
+        "price": 17.5,
+        "tax": 20,
+        "net_price": 14.58,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Apple AirTag (4er-Pack)",
+        "price": 64.5,
+        "tax": 20,
+        "net_price": 53.75,
+        "label": "Entertainment"
+      },
+      {
+        "name": "LEGO Star Wars R2-D2 Set",
+        "price": 75.0,
+        "tax": 20,
+        "net_price": 62.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Oral-B Pro 3 3000 Elektrische Zahnbürste",
+        "price": 49.9,
+        "tax": 20,
+        "net_price": 41.58,
+        "label": "Housing"
+      },
+      {
+        "name": "Samsung EVO Plus 128GB microSDXC",
+        "price": 16.99,
+        "tax": 20,
+        "net_price": 14.16,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Fitbit Inspire 3 Fitness-Tracker",
+        "price": 99.99,
+        "tax": 20,
+        "net_price": 83.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nespresso Vertuo Next Kapselmaschine",
+        "price": 109.0,
+        "tax": 20,
+        "net_price": 90.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Philips Hue White & Color Ambiance Lampe",
+        "price": 34.95,
+        "tax": 20,
+        "net_price": 29.13,
+        "label": "Housing"
+      },
+      {
+        "name": "Tefal Jamie Oliver Pfannenset (3-tlg.)",
+        "price": 99.99,
+        "tax": 20,
+        "net_price": 83.33,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Thalia",
+    "category": "Bookstore",
+    "items": [
+      {
+        "name": "Der Gesang der Flusskrebse",
+        "price": 12.99,
+        "tax": 10,
+        "net_price": 11.81,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Achtsam morden",
+        "price": 10.99,
+        "tax": 10,
+        "net_price": 9.99,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Die Mitternachtsbibliothek",
+        "price": 14.99,
+        "tax": 10,
+        "net_price": 13.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Das Café am Rande der Welt",
+        "price": 8.99,
+        "tax": 10,
+        "net_price": 8.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Harry Potter und der Stein der Weisen",
+        "price": 16.0,
+        "tax": 10,
+        "net_price": 14.55,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Der kleine Prinz",
+        "price": 6.95,
+        "tax": 10,
+        "net_price": 6.32,
+        "label": "Entertainment"
+      },
+      {
+        "name": "1984",
+        "price": 9.99,
+        "tax": 10,
+        "net_price": 9.08,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sapiens: Eine kurze Geschichte der Menschheit",
+        "price": 14.99,
+        "tax": 10,
+        "net_price": 13.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Die Känguru-Chroniken",
+        "price": 11.0,
+        "tax": 10,
+        "net_price": 10.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Der Alchimist",
+        "price": 10.95,
+        "tax": 10,
+        "net_price": 9.95,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "MediaMarkt",
+    "category": "Electronics Store",
+    "items": [
+      {
+        "name": "Samsung Galaxy S23 5G (128GB)",
+        "price": 849.0,
+        "tax": 20,
+        "net_price": 707.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Apple MacBook Air M2 (256GB)",
+        "price": 1249.0,
+        "tax": 20,
+        "net_price": 1040.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sony WH-1000XM5 Kopfhörer",
+        "price": 349.0,
+        "tax": 20,
+        "net_price": 290.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "LG 55\" OLED TV",
+        "price": 1099.0,
+        "tax": 20,
+        "net_price": 915.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "PlayStation 5 Konsole",
+        "price": 499.99,
+        "tax": 20,
+        "net_price": 416.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Bosch Waschmaschine Serie 6",
+        "price": 699.0,
+        "tax": 20,
+        "net_price": 582.5,
+        "label": "Housing"
+      },
+      {
+        "name": "Philips LatteGo 5400 Kaffeevollautomat",
+        "price": 599.0,
+        "tax": 20,
+        "net_price": 499.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "JBL Flip 6 Bluetooth Speaker",
+        "price": 119.0,
+        "tax": 20,
+        "net_price": 99.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nespresso Inissia Kapselmaschine",
+        "price": 69.0,
+        "tax": 20,
+        "net_price": 57.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "TP-Link WLAN Repeater",
+        "price": 34.99,
+        "tax": 20,
+        "net_price": 29.16,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Spar",
+    "category": "Grocery Store",
+    "items": [
+      {
+        "name": "Kornspitz",
+        "price": 0.49,
+        "tax": 10,
+        "net_price": 0.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Frische Milch 1L",
+        "price": 1.19,
+        "tax": 10,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Naturjoghurt 180g",
+        "price": 0.39,
+        "tax": 10,
+        "net_price": 0.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Freilandeier 6er",
+        "price": 2.39,
+        "tax": 10,
+        "net_price": 2.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Gouda Scheiben 150g",
+        "price": 1.99,
+        "tax": 10,
+        "net_price": 1.81,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Putenaufschnitt 100g",
+        "price": 1.49,
+        "tax": 10,
+        "net_price": 1.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Butter 250g",
+        "price": 2.29,
+        "tax": 10,
+        "net_price": 2.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Apfel 1kg",
+        "price": 2.79,
+        "tax": 10,
+        "net_price": 2.54,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Salatherzen 2er",
+        "price": 1.49,
+        "tax": 10,
+        "net_price": 1.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Banane Stück",
+        "price": 0.35,
+        "tax": 10,
+        "net_price": 0.32,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Soda Zitrone 1,5L",
+        "price": 0.79,
+        "tax": 20,
+        "net_price": 0.66,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Traubensaft 1L",
+        "price": 1.99,
+        "tax": 20,
+        "net_price": 1.66,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Ritter Sport Schokolade",
+        "price": 1.19,
+        "tax": 20,
+        "net_price": 0.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Reis 1kg",
+        "price": 1.29,
+        "tax": 10,
+        "net_price": 1.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Lachsfilet tiefgekühlt",
+        "price": 5.49,
+        "tax": 10,
+        "net_price": 4.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spar Bio Vollmilch 1L",
+        "price": 1.39,
+        "tax": 10,
+        "net_price": 1.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spar Natur*pur Freilandeier 10 Stück",
+        "price": 3.29,
+        "tax": 10,
+        "net_price": 2.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Rama Margarine 500g",
+        "price": 2.29,
+        "tax": 10,
+        "net_price": 2.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Manner Schnitten 400g",
+        "price": 3.49,
+        "tax": 10,
+        "net_price": 3.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Red Bull 0,25L",
+        "price": 1.29,
+        "tax": 20,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Iglo Spinat 450g",
+        "price": 2.99,
+        "tax": 10,
+        "net_price": 2.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Ja! Natürlich Bio-Karotten 1kg",
+        "price": 2.49,
+        "tax": 10,
+        "net_price": 2.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Coca-Cola 1,5L",
+        "price": 1.59,
+        "tax": 20,
+        "net_price": 1.33,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spar Natur*pur Bio-Joghurt 500g",
+        "price": 1.49,
+        "tax": 10,
+        "net_price": 1.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Milka Alpenmilch 100g",
+        "price": 1.19,
+        "tax": 10,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Billa Apfel Golden Delicious 1kg",
+        "price": 2.29,
+        "tax": 10,
+        "net_price": 2.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spar Bio-Roggenbrot 500g",
+        "price": 2.59,
+        "tax": 10,
+        "net_price": 2.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "SalzburgMilch Frische Vollmilch 1L",
+        "price": 1.39,
+        "tax": 10,
+        "net_price": 1.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Radatz Wiener Würstel 200g",
+        "price": 2.99,
+        "tax": 10,
+        "net_price": 2.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spar S-Budget Butter 250g",
+        "price": 2.19,
+        "tax": 10,
+        "net_price": 1.99,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Netflix",
+    "category": "Video Streaming Service",
+    "items": [
+      {
+        "name": "Premium-Abo (monatlich)",
+        "price": 17.99,
+        "tax": 20,
+        "net_price": 14.99,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Lieferando",
+    "category": "Online Food Delivery",
+    "items": [
+      {
+        "name": "Pizza Margherita",
+        "price": 9.9,
+        "tax": 10,
+        "net_price": 9.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sushi Set (10 Stück)",
+        "price": 14.5,
+        "tax": 10,
+        "net_price": 13.18,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Cheeseburger Menü",
+        "price": 11.2,
+        "tax": 10,
+        "net_price": 10.18,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Chicken Korma (indisch)",
+        "price": 13.9,
+        "tax": 10,
+        "net_price": 12.64,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Pad Thai",
+        "price": 12.9,
+        "tax": 10,
+        "net_price": 11.73,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Döner Kebab",
+        "price": 7.5,
+        "tax": 10,
+        "net_price": 6.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Coca Cola 0,5L",
+        "price": 2.5,
+        "tax": 20,
+        "net_price": 2.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Falafel Wrap",
+        "price": 8.9,
+        "tax": 10,
+        "net_price": 8.09,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Tiramisu",
+        "price": 4.8,
+        "tax": 10,
+        "net_price": 4.36,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Schnitzel mit Pommes",
+        "price": 12.5,
+        "tax": 10,
+        "net_price": 11.36,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Zalando",
+    "category": "Online Fashion Store",
+    "items": [
+      {
+        "name": "Levi's 501 Original Jeans",
+        "price": 99.95,
+        "tax": 20,
+        "net_price": 83.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Air Force 1 '07 Sneakers",
+        "price": 109.99,
+        "tax": 20,
+        "net_price": 91.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Adidas Originals Hoodie",
+        "price": 64.95,
+        "tax": 20,
+        "net_price": 54.13,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Dr. Martens 1460 Boots",
+        "price": 189.0,
+        "tax": 20,
+        "net_price": 157.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Tommy Hilfiger T-Shirt",
+        "price": 39.9,
+        "tax": 20,
+        "net_price": 33.25,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Calvin Klein Bralette",
+        "price": 29.95,
+        "tax": 20,
+        "net_price": 24.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Vans Old Skool Sneakers",
+        "price": 74.99,
+        "tax": 20,
+        "net_price": 62.49,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Only Lederjacke",
+        "price": 59.99,
+        "tax": 20,
+        "net_price": 50.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Jack & Jones Chinos",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Selected Femme Mantel",
+        "price": 199.99,
+        "tax": 20,
+        "net_price": 166.66,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Peek&Cloppenburg",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Tommy Hilfiger Hemd",
+        "price": 69.99,
+        "tax": 20,
+        "net_price": 58.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Boss Anzughose",
+        "price": 149.99,
+        "tax": 20,
+        "net_price": 125.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Calvin Klein Jeans",
+        "price": 99.99,
+        "tax": 20,
+        "net_price": 83.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Superdry T-Shirt",
+        "price": 29.99,
+        "tax": 20,
+        "net_price": 25.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Marc O'Polo Pullover",
+        "price": 89.95,
+        "tax": 20,
+        "net_price": 74.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "GANT Polo",
+        "price": 79.99,
+        "tax": 20,
+        "net_price": 66.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Levi's Jeansjacke",
+        "price": 109.95,
+        "tax": 20,
+        "net_price": 91.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Jack & Jones Chinos",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Boss T-Shirt",
+        "price": 39.99,
+        "tax": 20,
+        "net_price": 33.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Tommy Hilfiger Socken (3er Pack)",
+        "price": 14.99,
+        "tax": 20,
+        "net_price": 12.49,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Billa",
+    "category": "Grocery Store",
+    "items": [
+      {
+        "name": "Vollkornbrot",
+        "price": 2.49,
+        "tax": 10,
+        "net_price": 2.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Milch 1L",
+        "price": 1.39,
+        "tax": 10,
+        "net_price": 1.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Joghurt Natur 250g",
+        "price": 0.49,
+        "tax": 10,
+        "net_price": 0.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Freilandeier 10er Pack",
+        "price": 3.79,
+        "tax": 10,
+        "net_price": 3.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Emmentaler Käse 200g",
+        "price": 2.29,
+        "tax": 10,
+        "net_price": 2.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Salami Aufschnitt 100g",
+        "price": 1.89,
+        "tax": 10,
+        "net_price": 1.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Butter 250g",
+        "price": 2.49,
+        "tax": 10,
+        "net_price": 2.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Äpfel 1kg",
+        "price": 2.99,
+        "tax": 10,
+        "net_price": 2.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Tomaten 500g",
+        "price": 1.79,
+        "tax": 10,
+        "net_price": 1.63,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Banane Stück",
+        "price": 0.39,
+        "tax": 10,
+        "net_price": 0.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Mineralwasser 1,5L",
+        "price": 0.39,
+        "tax": 20,
+        "net_price": 0.33,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Orangensaft 1L",
+        "price": 1.29,
+        "tax": 20,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Milka Schokolade 100g",
+        "price": 1.29,
+        "tax": 20,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Nudeln 500g",
+        "price": 0.89,
+        "tax": 10,
+        "net_price": 0.81,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Thunfischdose",
+        "price": 1.39,
+        "tax": 10,
+        "net_price": 1.26,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Hofer",
+    "category": "Grocery Store",
+    "items": [
+      {
+        "name": "Kaisersemmerl",
+        "price": 0.19,
+        "tax": 10,
+        "net_price": 0.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Frischmilch 1L",
+        "price": 1.09,
+        "tax": 10,
+        "net_price": 0.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Joghurt 500g",
+        "price": 1.29,
+        "tax": 10,
+        "net_price": 1.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Eier Freiland 10er",
+        "price": 3.29,
+        "tax": 10,
+        "net_price": 2.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bergkäse 150g",
+        "price": 2.19,
+        "tax": 10,
+        "net_price": 1.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Putenbrustaufschnitt 100g",
+        "price": 1.29,
+        "tax": 10,
+        "net_price": 1.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Butter 250g",
+        "price": 2.19,
+        "tax": 10,
+        "net_price": 1.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Äpfel 1kg",
+        "price": 2.69,
+        "tax": 10,
+        "net_price": 2.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Paprika Mix 500g",
+        "price": 1.89,
+        "tax": 10,
+        "net_price": 1.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Banane Stück",
+        "price": 0.29,
+        "tax": 10,
+        "net_price": 0.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Mineralwasser 1,5L",
+        "price": 0.29,
+        "tax": 20,
+        "net_price": 0.24,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Apfelsaft 1L",
+        "price": 1.09,
+        "tax": 20,
+        "net_price": 0.91,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Choceur Schokolade 100g",
+        "price": 0.79,
+        "tax": 20,
+        "net_price": 0.66,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spaghetti 500g",
+        "price": 0.79,
+        "tax": 10,
+        "net_price": 0.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Thunfisch in Öl Dose",
+        "price": 1.19,
+        "tax": 10,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Lidl",
+    "category": "Grocery Store",
+    "items": [
+      {
+        "name": "Sonnenblumenbrot",
+        "price": 1.49,
+        "tax": 10,
+        "net_price": 1.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Frische Alpenmilch 1L",
+        "price": 1.15,
+        "tax": 10,
+        "net_price": 1.05,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Joghurt 250g",
+        "price": 0.39,
+        "tax": 10,
+        "net_price": 0.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bio-Eier 6er",
+        "price": 2.19,
+        "tax": 10,
+        "net_price": 1.99,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Edamer Scheiben 150g",
+        "price": 1.79,
+        "tax": 10,
+        "net_price": 1.63,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Putensalami 100g",
+        "price": 1.19,
+        "tax": 10,
+        "net_price": 1.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Butter 250g",
+        "price": 1.89,
+        "tax": 10,
+        "net_price": 1.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Äpfel 1kg",
+        "price": 2.59,
+        "tax": 10,
+        "net_price": 2.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kirschtomaten 250g",
+        "price": 1.29,
+        "tax": 10,
+        "net_price": 1.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Banane Stück",
+        "price": 0.29,
+        "tax": 10,
+        "net_price": 0.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Mineralwasser 1,5L",
+        "price": 0.25,
+        "tax": 20,
+        "net_price": 0.21,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Orangensaft 1L",
+        "price": 0.99,
+        "tax": 20,
+        "net_price": 0.83,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Fin Carre Schokolade 100g",
+        "price": 0.89,
+        "tax": 20,
+        "net_price": 0.74,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Spaghetti 500g",
+        "price": 0.65,
+        "tax": 10,
+        "net_price": 0.59,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sardinen in Öl Dose",
+        "price": 0.89,
+        "tax": 10,
+        "net_price": 0.81,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Bipa",
+    "category": "Drugstore",
+    "items": [
+      {
+        "name": "Denkmit Waschmittel 20WL",
+        "price": 3.49,
+        "tax": 20,
+        "net_price": 2.91,
+        "label": "Housing"
+      },
+      {
+        "name": "Nivea Duschgel 250ml",
+        "price": 2.19,
+        "tax": 20,
+        "net_price": 1.83,
+        "label": "Housing"
+      },
+      {
+        "name": "Balea Shampoo 300ml",
+        "price": 1.29,
+        "tax": 20,
+        "net_price": 1.08,
+        "label": "Housing"
+      },
+      {
+        "name": "Gillette Rasierer 3er Pack",
+        "price": 6.99,
+        "tax": 20,
+        "net_price": 5.83,
+        "label": "Housing"
+      },
+      {
+        "name": "Dove Deospray",
+        "price": 2.49,
+        "tax": 20,
+        "net_price": 2.08,
+        "label": "Housing"
+      },
+      {
+        "name": "Alverde Tagescreme",
+        "price": 3.99,
+        "tax": 20,
+        "net_price": 3.33,
+        "label": "Housing"
+      },
+      {
+        "name": "Tempo Taschentücher 10x10",
+        "price": 1.79,
+        "tax": 20,
+        "net_price": 1.49,
+        "label": "Housing"
+      },
+      {
+        "name": "elmex Zahnpasta",
+        "price": 2.99,
+        "tax": 20,
+        "net_price": 2.49,
+        "label": "Housing"
+      },
+      {
+        "name": "BIPA Wattepads 120 Stück",
+        "price": 0.79,
+        "tax": 20,
+        "net_price": 0.66,
+        "label": "Housing"
+      },
+      {
+        "name": "Balea Bodylotion 400ml",
+        "price": 2.29,
+        "tax": 20,
+        "net_price": 1.91,
+        "label": "Housing"
+      },
+      {
+        "name": "Sagrotan Desinfektionsspray",
+        "price": 3.49,
+        "tax": 20,
+        "net_price": 2.91,
+        "label": "Housing"
+      },
+      {
+        "name": "BIPA Wattestäbchen 200 Stück",
+        "price": 0.99,
+        "tax": 20,
+        "net_price": 0.83,
+        "label": "Housing"
+      },
+      {
+        "name": "Fa Duschgel 250ml",
+        "price": 1.39,
+        "tax": 20,
+        "net_price": 1.16,
+        "label": "Housing"
+      },
+      {
+        "name": "Nivea Creme 150ml",
+        "price": 2.99,
+        "tax": 20,
+        "net_price": 2.49,
+        "label": "Housing"
+      },
+      {
+        "name": "Always Ultra Binden 10 Stück",
+        "price": 2.29,
+        "tax": 20,
+        "net_price": 1.91,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Etsan",
+    "category": "Grocery Store",
+    "items": [
+      {
+        "name": "Pide Fladenbrot",
+        "price": 1.29,
+        "tax": 10,
+        "net_price": 1.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Ayran 500ml",
+        "price": 0.99,
+        "tax": 10,
+        "net_price": 0.9,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Schafskäse 200g",
+        "price": 2.99,
+        "tax": 10,
+        "net_price": 2.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sucuk 100g",
+        "price": 2.49,
+        "tax": 10,
+        "net_price": 2.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kichererbsen Dose",
+        "price": 0.79,
+        "tax": 10,
+        "net_price": 0.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Lammhackfleisch 500g",
+        "price": 4.99,
+        "tax": 10,
+        "net_price": 4.54,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Joghurt Türkisch 1kg",
+        "price": 1.99,
+        "tax": 10,
+        "net_price": 1.81,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bulgur 1kg",
+        "price": 1.79,
+        "tax": 10,
+        "net_price": 1.63,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Granatapfelsaft 1L",
+        "price": 2.69,
+        "tax": 20,
+        "net_price": 2.24,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Baklava 200g",
+        "price": 3.99,
+        "tax": 10,
+        "net_price": 3.63,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Oliven 250g",
+        "price": 1.89,
+        "tax": 10,
+        "net_price": 1.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Paprika 500g",
+        "price": 1.49,
+        "tax": 10,
+        "net_price": 1.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Petersilie Bund",
+        "price": 0.79,
+        "tax": 10,
+        "net_price": 0.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sesampaste Tahin 300g",
+        "price": 2.49,
+        "tax": 10,
+        "net_price": 2.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Datteln 250g",
+        "price": 2.29,
+        "tax": 10,
+        "net_price": 2.08,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Post",
+    "category": "Post Office",
+    "items": [
+      {
+        "name": "Standardbrief Inland (bis 20g)",
+        "price": 1.2,
+        "tax": 20,
+        "net_price": 1.0,
+        "label": "Transportation"
+      },
+      {
+        "name": "Maxibrief Inland (bis 1kg)",
+        "price": 2.75,
+        "tax": 20,
+        "net_price": 2.29,
+        "label": "Transportation"
+      },
+      {
+        "name": "Paket Inland (bis 2kg)",
+        "price": 5.0,
+        "tax": 20,
+        "net_price": 4.17,
+        "label": "Transportation"
+      },
+      {
+        "name": "Einschreiben Inland Zuschlag",
+        "price": 2.85,
+        "tax": 20,
+        "net_price": 2.38,
+        "label": "Transportation"
+      },
+      {
+        "name": "Postkarte Europa",
+        "price": 1.8,
+        "tax": 20,
+        "net_price": 1.5,
+        "label": "Transportation"
+      }
+    ]
+  },
+  {
+    "merchant": "Essenz Apotheke Mariahilf",
+    "category": "Pharmacy",
+    "items": [
+      {
+        "name": "Aspirin Tabletten 20 Stück",
+        "price": 6.99,
+        "tax": 10,
+        "net_price": 6.35,
+        "label": "Housing"
+      },
+      {
+        "name": "Nasenspray 10ml",
+        "price": 5.49,
+        "tax": 10,
+        "net_price": 4.99,
+        "label": "Housing"
+      },
+      {
+        "name": "Vitamin D Tropfen 10ml",
+        "price": 8.9,
+        "tax": 10,
+        "net_price": 8.09,
+        "label": "Housing"
+      },
+      {
+        "name": "Paracetamol 500mg 20 Stück",
+        "price": 4.99,
+        "tax": 10,
+        "net_price": 4.54,
+        "label": "Housing"
+      },
+      {
+        "name": "Wund- und Heilsalbe 50g",
+        "price": 7.5,
+        "tax": 10,
+        "net_price": 6.82,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Magenta",
+    "category": "Mobile Phone Store",
+    "items": [
+      {
+        "name": "Mobile Sim Only Unlimited",
+        "price": 29.9,
+        "tax": 20,
+        "net_price": 24.92,
+        "label": "Housing"
+      },
+      {
+        "name": "Magenta TV Box",
+        "price": 99.0,
+        "tax": 20,
+        "net_price": 82.5,
+        "label": "Housing"
+      },
+      {
+        "name": "Internet M 300Mbit",
+        "price": 47.9,
+        "tax": 20,
+        "net_price": 39.92,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Apple Store",
+    "category": "Electronics Superstore",
+    "items": [
+      {
+        "name": "MacBook Air M3 13\" 256GB",
+        "price": 1299.0,
+        "tax": 20,
+        "net_price": 1082.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "iPad 10. Gen 64GB",
+        "price": 589.0,
+        "tax": 20,
+        "net_price": 490.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Apple Watch Series 9",
+        "price": 449.0,
+        "tax": 20,
+        "net_price": 374.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "AirPods Pro (2. Gen)",
+        "price": 279.0,
+        "tax": 20,
+        "net_price": 232.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Apple Pencil 2. Gen",
+        "price": 149.0,
+        "tax": 20,
+        "net_price": 124.17,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "McFit",
+    "category": "Fitness",
+    "items": [
+      {
+        "name": "Monatsmitgliedschaft",
+        "price": 29.9,
+        "tax": 20,
+        "net_price": 24.92,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Getränkeflatrate pro Monat",
+        "price": 5.0,
+        "tax": 20,
+        "net_price": 4.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Personal Training Einzelstunde",
+        "price": 49.0,
+        "tax": 20,
+        "net_price": 40.83,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Bershka",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Oversize T-Shirt",
+        "price": 9.99,
+        "tax": 20,
+        "net_price": 8.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Basic Sneakers",
+        "price": 24.99,
+        "tax": 20,
+        "net_price": 20.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Hoodie",
+        "price": 25.99,
+        "tax": 20,
+        "net_price": 21.66,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Zara",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Slim Fit Jeans",
+        "price": 39.95,
+        "tax": 20,
+        "net_price": 33.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Oversized T-Shirt",
+        "price": 17.95,
+        "tax": 20,
+        "net_price": 14.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Blazer",
+        "price": 59.95,
+        "tax": 20,
+        "net_price": 49.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Midi Kleid",
+        "price": 39.95,
+        "tax": 20,
+        "net_price": 33.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Cargo Pants",
+        "price": 49.95,
+        "tax": 20,
+        "net_price": 41.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Strickpullover",
+        "price": 25.95,
+        "tax": 20,
+        "net_price": 21.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Hoodie",
+        "price": 29.95,
+        "tax": 20,
+        "net_price": 24.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Bomberjacke",
+        "price": 59.95,
+        "tax": 20,
+        "net_price": 49.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sneaker",
+        "price": 39.95,
+        "tax": 20,
+        "net_price": 33.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Hemd Regular Fit",
+        "price": 25.95,
+        "tax": 20,
+        "net_price": 21.63,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Sportnahrung",
+    "category": "Sports Nutrition Store",
+    "items": [
+      {
+        "name": "Whey Protein 1kg",
+        "price": 24.9,
+        "tax": 20,
+        "net_price": 20.75,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Creatin Monohydrat 500g",
+        "price": 14.9,
+        "tax": 20,
+        "net_price": 12.42,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Aminosäuren Tabs",
+        "price": 19.9,
+        "tax": 20,
+        "net_price": 16.58,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Proteinriegel Box (12 Stück)",
+        "price": 18.9,
+        "tax": 20,
+        "net_price": 15.75,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Pre Workout Booster 400g",
+        "price": 27.9,
+        "tax": 20,
+        "net_price": 23.25,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "BCAA Pulver 500g",
+        "price": 24.9,
+        "tax": 20,
+        "net_price": 20.75,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Energiegel 10er Pack",
+        "price": 13.9,
+        "tax": 20,
+        "net_price": 11.58,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Protein Pancake Mix 1kg",
+        "price": 12.9,
+        "tax": 20,
+        "net_price": 10.75,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Zink Tabletten",
+        "price": 8.9,
+        "tax": 20,
+        "net_price": 7.42,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Shaker 700ml",
+        "price": 5.9,
+        "tax": 20,
+        "net_price": 4.92,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Boss Mensware Store",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Business Anzug",
+        "price": 499.0,
+        "tax": 20,
+        "net_price": 415.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Hemd Slim Fit",
+        "price": 79.95,
+        "tax": 20,
+        "net_price": 66.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Poloshirt",
+        "price": 59.95,
+        "tax": 20,
+        "net_price": 49.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Pullover",
+        "price": 119.95,
+        "tax": 20,
+        "net_price": 99.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Gürtel Leder",
+        "price": 69.95,
+        "tax": 20,
+        "net_price": 58.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Chinos Hose",
+        "price": 99.95,
+        "tax": 20,
+        "net_price": 83.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sakko",
+        "price": 299.0,
+        "tax": 20,
+        "net_price": 249.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "T-Shirt Logo",
+        "price": 44.95,
+        "tax": 20,
+        "net_price": 37.46,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sneaker",
+        "price": 159.0,
+        "tax": 20,
+        "net_price": 132.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Wollmantel",
+        "price": 399.0,
+        "tax": 20,
+        "net_price": 332.5,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Türkis",
+    "category": "Restaurant/Gastronomy",
+    "items": [
+      {
+        "name": "Kebap im Brot",
+        "price": 6.5,
+        "tax": 10,
+        "net_price": 5.91,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Dürüm",
+        "price": 7.0,
+        "tax": 10,
+        "net_price": 6.36,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kebap Box",
+        "price": 7.5,
+        "tax": 10,
+        "net_price": 6.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Falafel Teller",
+        "price": 8.0,
+        "tax": 10,
+        "net_price": 7.27,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kebap Teller",
+        "price": 9.9,
+        "tax": 10,
+        "net_price": 9.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Baklava Stück",
+        "price": 2.0,
+        "tax": 10,
+        "net_price": 1.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Lahmacun",
+        "price": 4.9,
+        "tax": 10,
+        "net_price": 4.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Pommes klein",
+        "price": 2.9,
+        "tax": 10,
+        "net_price": 2.64,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Cola 0,5L",
+        "price": 2.0,
+        "tax": 20,
+        "net_price": 1.67,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Ayran 0,3L",
+        "price": 1.5,
+        "tax": 10,
+        "net_price": 1.36,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Fielmann",
+    "category": "Optician",
+    "items": [
+      {
+        "name": "Brillengestell Standard",
+        "price": 39.0,
+        "tax": 20,
+        "net_price": 32.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Kunststoffgläser Einstärken",
+        "price": 50.0,
+        "tax": 20,
+        "net_price": 41.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Gleitsichtgläser",
+        "price": 120.0,
+        "tax": 20,
+        "net_price": 100.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Kontaktlinsen Monatsbox",
+        "price": 29.0,
+        "tax": 20,
+        "net_price": 24.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Brillenetui",
+        "price": 9.95,
+        "tax": 20,
+        "net_price": 8.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Brillenreinigungsspray",
+        "price": 4.95,
+        "tax": 20,
+        "net_price": 4.13,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sehtest",
+        "price": 15.0,
+        "tax": 20,
+        "net_price": 12.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Brillenputztuch",
+        "price": 2.0,
+        "tax": 20,
+        "net_price": 1.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "UV-Schutz Sonnenbrille",
+        "price": 29.0,
+        "tax": 20,
+        "net_price": 24.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Augentropfen",
+        "price": 8.95,
+        "tax": 10,
+        "net_price": 8.14,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Foot Locker",
+    "category": "Shoe Store",
+    "items": [
+      {
+        "name": "Nike Air Force 1",
+        "price": 129.99,
+        "tax": 20,
+        "net_price": 108.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Adidas Superstar",
+        "price": 109.99,
+        "tax": 20,
+        "net_price": 91.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Puma Suede Classic",
+        "price": 79.99,
+        "tax": 20,
+        "net_price": 66.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "New Balance 574",
+        "price": 99.99,
+        "tax": 20,
+        "net_price": 83.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Vans Old Skool",
+        "price": 74.99,
+        "tax": 20,
+        "net_price": 62.49,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Converse Chuck Taylor All Star",
+        "price": 69.99,
+        "tax": 20,
+        "net_price": 58.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Air Max 90",
+        "price": 139.99,
+        "tax": 20,
+        "net_price": 116.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Asics Gel-Lyte III",
+        "price": 119.99,
+        "tax": 20,
+        "net_price": 99.99,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Fila Disruptor",
+        "price": 89.99,
+        "tax": 20,
+        "net_price": 74.99,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sneaker Clean Kit",
+        "price": 14.99,
+        "tax": 20,
+        "net_price": 12.49,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Humanic",
+    "category": "Shoe Store",
+    "items": [
+      {
+        "name": "Tamaris Sandalen",
+        "price": 59.95,
+        "tax": 20,
+        "net_price": 49.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Gabor Ballerinas",
+        "price": 79.95,
+        "tax": 20,
+        "net_price": 66.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Laufschuhe",
+        "price": 109.95,
+        "tax": 20,
+        "net_price": 91.63,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Adidas Sneakers",
+        "price": 89.95,
+        "tax": 20,
+        "net_price": 74.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Högl Pumps",
+        "price": 99.95,
+        "tax": 20,
+        "net_price": 83.29,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Clarks Slipper",
+        "price": 84.95,
+        "tax": 20,
+        "net_price": 70.79,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Vagabond Boots",
+        "price": 119.95,
+        "tax": 20,
+        "net_price": 99.96,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Shoe Care Set",
+        "price": 15.99,
+        "tax": 20,
+        "net_price": 13.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Skechers Slip-Ons",
+        "price": 74.95,
+        "tax": 20,
+        "net_price": 62.46,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Birkenstock Arizona",
+        "price": 69.95,
+        "tax": 20,
+        "net_price": 58.29,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Hollister",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Hoodie",
+        "price": 39.99,
+        "tax": 20,
+        "net_price": 33.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "T-Shirt",
+        "price": 19.99,
+        "tax": 20,
+        "net_price": 16.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Slim Jeans",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Jogginghose",
+        "price": 34.99,
+        "tax": 20,
+        "net_price": 29.16,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sweatjacke",
+        "price": 44.99,
+        "tax": 20,
+        "net_price": 37.49,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Bikini Oberteil",
+        "price": 24.99,
+        "tax": 20,
+        "net_price": 20.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Boxershorts 3er Pack",
+        "price": 19.99,
+        "tax": 20,
+        "net_price": 16.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Winterjacke",
+        "price": 89.99,
+        "tax": 20,
+        "net_price": 74.99,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sneaker Socken 5er Pack",
+        "price": 12.99,
+        "tax": 20,
+        "net_price": 10.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Rucksack",
+        "price": 34.99,
+        "tax": 20,
+        "net_price": 29.16,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Ikea",
+    "category": "Furniture and Home Essentials",
+    "items": [
+      {
+        "name": "BILLY Regal",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Housing"
+      },
+      {
+        "name": "LACK Couchtisch",
+        "price": 29.99,
+        "tax": 20,
+        "net_price": 24.99,
+        "label": "Housing"
+      },
+      {
+        "name": "MALM Bettgestell 140x200cm",
+        "price": 149.0,
+        "tax": 20,
+        "net_price": 124.17,
+        "label": "Housing"
+      },
+      {
+        "name": "POÄNG Sessel",
+        "price": 99.99,
+        "tax": 20,
+        "net_price": 83.33,
+        "label": "Housing"
+      },
+      {
+        "name": "SKUBB Boxen 6er Set",
+        "price": 7.99,
+        "tax": 20,
+        "net_price": 6.66,
+        "label": "Housing"
+      },
+      {
+        "name": "LENDA Vorhangpaar",
+        "price": 24.99,
+        "tax": 20,
+        "net_price": 20.83,
+        "label": "Housing"
+      },
+      {
+        "name": "KALLAX Regal",
+        "price": 69.99,
+        "tax": 20,
+        "net_price": 58.33,
+        "label": "Housing"
+      },
+      {
+        "name": "BEKÄM Spülschwamm 3er",
+        "price": 1.29,
+        "tax": 20,
+        "net_price": 1.08,
+        "label": "Housing"
+      },
+      {
+        "name": "365+ Trinkglas 6er Set",
+        "price": 4.99,
+        "tax": 20,
+        "net_price": 4.16,
+        "label": "Housing"
+      },
+      {
+        "name": "ANTILOP Hochstuhl",
+        "price": 19.99,
+        "tax": 20,
+        "net_price": 16.66,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Interspar",
+    "category": "Grocery Store",
+    "items": [
+      {
+        "name": "Sonnenblumenbrot",
+        "price": 2.39,
+        "tax": 10,
+        "net_price": 2.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Frische Bio-Milch 1L",
+        "price": 1.29,
+        "tax": 10,
+        "net_price": 1.17,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Joghurt 250g",
+        "price": 0.49,
+        "tax": 10,
+        "net_price": 0.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Freilandeier 10er",
+        "price": 3.99,
+        "tax": 10,
+        "net_price": 3.63,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Bergkäse 200g",
+        "price": 2.59,
+        "tax": 10,
+        "net_price": 2.35,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Putenschinken 100g",
+        "price": 1.59,
+        "tax": 10,
+        "net_price": 1.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Butter 250g",
+        "price": 2.49,
+        "tax": 10,
+        "net_price": 2.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Äpfel 1kg",
+        "price": 2.99,
+        "tax": 10,
+        "net_price": 2.72,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kirschtomaten 250g",
+        "price": 1.39,
+        "tax": 10,
+        "net_price": 1.26,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Banane Stück",
+        "price": 0.35,
+        "tax": 10,
+        "net_price": 0.32,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Jack&Jones",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Jeans Slim Fit",
+        "price": 59.99,
+        "tax": 20,
+        "net_price": 50.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "T-Shirt Basic",
+        "price": 14.99,
+        "tax": 20,
+        "net_price": 12.49,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sweatshirt",
+        "price": 29.99,
+        "tax": 20,
+        "net_price": 25.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Jacke",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Boxershorts 3er Pack",
+        "price": 17.99,
+        "tax": 20,
+        "net_price": 14.99,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Polo Shirt",
+        "price": 19.99,
+        "tax": 20,
+        "net_price": 16.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Chinos",
+        "price": 39.99,
+        "tax": 20,
+        "net_price": 33.33,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Strickpullover",
+        "price": 34.99,
+        "tax": 20,
+        "net_price": 29.16,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Hoodie",
+        "price": 34.99,
+        "tax": 20,
+        "net_price": 29.16,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sneaker",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Wiener Linien",
+    "category": "Public Transport",
+    "items": [
+      {
+        "name": "Einzelfahrschein",
+        "price": 2.4,
+        "tax": 10,
+        "net_price": 2.18,
+        "label": "Transportation"
+      },
+      {
+        "name": "Hunde-Einzelticket",
+        "price": 1.2,
+        "tax": 10,
+        "net_price": 1.09,
+        "label": "Transportation"
+      }
+    ]
+  },
+  {
+    "merchant": "Massi Milano",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Armbanduhr Classico",
+        "price": 149.0,
+        "tax": 20,
+        "net_price": 124.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Armbanduhr Eleganza",
+        "price": 179.0,
+        "tax": 20,
+        "net_price": 149.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Armband Leder",
+        "price": 35.0,
+        "tax": 20,
+        "net_price": 29.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Chronograph Steel",
+        "price": 219.0,
+        "tax": 20,
+        "net_price": 182.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Uhrenbox",
+        "price": 49.0,
+        "tax": 20,
+        "net_price": 40.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Uhrenarmband Mesh",
+        "price": 29.0,
+        "tax": 20,
+        "net_price": 24.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Quarz Damenuhr",
+        "price": 129.0,
+        "tax": 20,
+        "net_price": 107.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Herrenuhr Titan",
+        "price": 199.0,
+        "tax": 20,
+        "net_price": 165.83,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Michael Kors",
+    "category": "Fashion Store",
+    "items": [
+      {
+        "name": "Handtasche Jet Set",
+        "price": 249.0,
+        "tax": 20,
+        "net_price": 207.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Wallet Portemonnaie",
+        "price": 99.0,
+        "tax": 20,
+        "net_price": 82.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Damenarmbanduhr",
+        "price": 179.0,
+        "tax": 20,
+        "net_price": 149.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Umhängetasche",
+        "price": 219.0,
+        "tax": 20,
+        "net_price": 182.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Sonnenbrille Damen",
+        "price": 119.0,
+        "tax": 20,
+        "net_price": 99.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Tote Bag",
+        "price": 289.0,
+        "tax": 20,
+        "net_price": 240.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Parfum 50ml",
+        "price": 69.0,
+        "tax": 20,
+        "net_price": 57.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Herrenarmbanduhr",
+        "price": 229.0,
+        "tax": 20,
+        "net_price": 190.83,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Nespresso",
+    "category": "Coffee Shop",
+    "items": [
+      {
+        "name": "Kaffeekapseln (10 Stück)",
+        "price": 4.5,
+        "tax": 20,
+        "net_price": 3.75,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Espressotasse Set",
+        "price": 18.0,
+        "tax": 20,
+        "net_price": 15.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Nespresso Vertuo Next Maschine",
+        "price": 129.0,
+        "tax": 20,
+        "net_price": 107.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Milchaufschäumer",
+        "price": 79.0,
+        "tax": 20,
+        "net_price": 65.83,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Reinigungsset",
+        "price": 13.0,
+        "tax": 20,
+        "net_price": 10.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Lungo Kaffeekapseln",
+        "price": 4.9,
+        "tax": 20,
+        "net_price": 4.08,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Recyclingbeutel",
+        "price": 1.5,
+        "tax": 20,
+        "net_price": 1.25,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Kapselspender",
+        "price": 25.0,
+        "tax": 20,
+        "net_price": 20.83,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "Notino",
+    "category": "Perfumery",
+    "items": [
+      {
+        "name": "Chanel N°5 Eau de Parfum 50ml",
+        "price": 109.0,
+        "tax": 20,
+        "net_price": 90.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Lancome La Vie Est Belle 50ml",
+        "price": 75.0,
+        "tax": 20,
+        "net_price": 62.5,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Armani Code Homme 50ml",
+        "price": 62.0,
+        "tax": 20,
+        "net_price": 51.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Versace Eros Eau de Toilette",
+        "price": 65.0,
+        "tax": 20,
+        "net_price": 54.17,
+        "label": "Entertainment"
+      },
+      {
+        "name": "La Roche-Posay Toleriane Reinigung",
+        "price": 14.0,
+        "tax": 20,
+        "net_price": 11.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Maybelline Lash Sensational Mascara",
+        "price": 9.5,
+        "tax": 20,
+        "net_price": 7.92,
+        "label": "Entertainment"
+      },
+      {
+        "name": "NYX Professional Make-up Setting Spray",
+        "price": 8.9,
+        "tax": 20,
+        "net_price": 7.42,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nuxe Huile Prodigieuse 100ml",
+        "price": 24.0,
+        "tax": 20,
+        "net_price": 20.0,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "D&M",
+    "category": "Drugstore",
+    "items": [
+      {
+        "name": "Balea Duschgel 300ml",
+        "price": 0.95,
+        "tax": 20,
+        "net_price": 0.79,
+        "label": "Housing"
+      },
+      {
+        "name": "Denkmit Waschmittel 20WL",
+        "price": 3.49,
+        "tax": 20,
+        "net_price": 2.91,
+        "label": "Housing"
+      },
+      {
+        "name": "Nivea Creme 150ml",
+        "price": 2.99,
+        "tax": 20,
+        "net_price": 2.49,
+        "label": "Housing"
+      },
+      {
+        "name": "Gillette Fusion Rasierer",
+        "price": 12.99,
+        "tax": 20,
+        "net_price": 10.83,
+        "label": "Housing"
+      },
+      {
+        "name": "Always Ultra Binden 10 Stück",
+        "price": 2.29,
+        "tax": 20,
+        "net_price": 1.91,
+        "label": "Housing"
+      },
+      {
+        "name": "elmex Zahnpasta",
+        "price": 2.99,
+        "tax": 20,
+        "net_price": 2.49,
+        "label": "Housing"
+      },
+      {
+        "name": "Sagrotan Desinfektionsspray",
+        "price": 3.99,
+        "tax": 20,
+        "net_price": 3.33,
+        "label": "Housing"
+      },
+      {
+        "name": "babylove Feuchttücher 80 Stück",
+        "price": 1.49,
+        "tax": 20,
+        "net_price": 1.24,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Müller",
+    "category": "Drugstore",
+    "items": [
+      {
+        "name": "Nivea Duschgel 250ml",
+        "price": 2.29,
+        "tax": 20,
+        "net_price": 1.91,
+        "label": "Housing"
+      },
+      {
+        "name": "Balea Shampoo 300ml",
+        "price": 1.29,
+        "tax": 20,
+        "net_price": 1.08,
+        "label": "Housing"
+      },
+      {
+        "name": "Denkmit Waschmittel 20WL",
+        "price": 3.69,
+        "tax": 20,
+        "net_price": 3.08,
+        "label": "Housing"
+      },
+      {
+        "name": "Tempo Taschentücher 10x10",
+        "price": 1.69,
+        "tax": 20,
+        "net_price": 1.41,
+        "label": "Housing"
+      },
+      {
+        "name": "elmex Zahnpasta",
+        "price": 2.99,
+        "tax": 20,
+        "net_price": 2.49,
+        "label": "Housing"
+      },
+      {
+        "name": "Balea Bodylotion 400ml",
+        "price": 2.39,
+        "tax": 20,
+        "net_price": 1.99,
+        "label": "Housing"
+      },
+      {
+        "name": "Always Ultra Binden 10 Stück",
+        "price": 2.29,
+        "tax": 20,
+        "net_price": 1.91,
+        "label": "Housing"
+      },
+      {
+        "name": "Fa Deo Roll-On",
+        "price": 1.99,
+        "tax": 20,
+        "net_price": 1.66,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Nike",
+    "category": "Sportswear",
+    "items": [
+      {
+        "name": "Nike Air Max 90",
+        "price": 139.99,
+        "tax": 20,
+        "net_price": 116.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Trainingsshirt",
+        "price": 29.99,
+        "tax": 20,
+        "net_price": 25.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Sportshorts",
+        "price": 34.99,
+        "tax": 20,
+        "net_price": 29.16,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Socken 3er Pack",
+        "price": 14.99,
+        "tax": 20,
+        "net_price": 12.49,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Kapuzenpullover",
+        "price": 54.99,
+        "tax": 20,
+        "net_price": 45.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Trinkflasche",
+        "price": 12.99,
+        "tax": 20,
+        "net_price": 10.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Trainingshose",
+        "price": 49.99,
+        "tax": 20,
+        "net_price": 41.66,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Nike Sporttasche",
+        "price": 29.99,
+        "tax": 20,
+        "net_price": 25.0,
+        "label": "Entertainment"
+      }
+    ]
+  },
+  {
+    "merchant": "TUI das Reisebüro",
+    "category": "Travel",
+    "items": [
+      {
+        "name": "Pauschalreise Mallorca 7 Tage",
+        "price": 950.0,
+        "tax": 20,
+        "net_price": 791.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Flug Wien – Berlin",
+        "price": 190.0,
+        "tax": 20,
+        "net_price": 158.33,
+        "label": "Transportation"
+      },
+      {
+        "name": "Kreuzfahrt Mittelmeer 10 Tage",
+        "price": 1590.0,
+        "tax": 20,
+        "net_price": 1325.0,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Städtereise Prag 3 Tage",
+        "price": 350.0,
+        "tax": 20,
+        "net_price": 291.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Hotel Wien 2 Nächte",
+        "price": 260.0,
+        "tax": 20,
+        "net_price": 216.67,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Reiserücktrittsversicherung",
+        "price": 49.0,
+        "tax": 20,
+        "net_price": 40.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Ausflug Ägypten (ganztags)",
+        "price": 85.0,
+        "tax": 20,
+        "net_price": 70.83,
+        "label": "Entertainment"
+      },
+      {
+        "name": "Flughafentransfer",
+        "price": 35.0,
+        "tax": 20,
+        "net_price": 29.17,
+        "label": "Transportation"
+      }
+    ]
+  },
+  {
+    "merchant": "XXXLutz",
+    "category": "Furniture and Home Essentials",
+    "items": [
+      {
+        "name": "Esstisch Holz",
+        "price": 349.0,
+        "tax": 20,
+        "net_price": 290.83,
+        "label": "Housing"
+      },
+      {
+        "name": "Boxspringbett 180x200cm",
+        "price": 999.0,
+        "tax": 20,
+        "net_price": 832.5,
+        "label": "Housing"
+      },
+      {
+        "name": "Küchenblock 2,5m",
+        "price": 1299.0,
+        "tax": 20,
+        "net_price": 1082.5,
+        "label": "Housing"
+      },
+      {
+        "name": "Wohnlandschaft Sofa",
+        "price": 799.0,
+        "tax": 20,
+        "net_price": 665.83,
+        "label": "Housing"
+      },
+      {
+        "name": "Bürostuhl ergonomisch",
+        "price": 159.0,
+        "tax": 20,
+        "net_price": 132.5,
+        "label": "Housing"
+      },
+      {
+        "name": "Garderobe Set",
+        "price": 219.0,
+        "tax": 20,
+        "net_price": 182.5,
+        "label": "Housing"
+      },
+      {
+        "name": "Lattenrost 90x200cm",
+        "price": 79.9,
+        "tax": 20,
+        "net_price": 66.58,
+        "label": "Housing"
+      },
+      {
+        "name": "LED Stehlampe",
+        "price": 69.9,
+        "tax": 20,
+        "net_price": 58.25,
+        "label": "Housing"
+      }
+    ]
+  },
+  {
+    "merchant": "Cafe Central",
+    "category": "Cafe",
+    "items": [
+      {
+        "name": "Melange",
+        "price": 5.2,
+        "tax": 10,
+        "net_price": 4.73,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Verlängerter",
+        "price": 4.8,
+        "tax": 10,
+        "net_price": 4.36,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Apfelstrudel",
+        "price": 5.8,
+        "tax": 10,
+        "net_price": 5.27,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sachertorte Stück",
+        "price": 6.2,
+        "tax": 10,
+        "net_price": 5.64,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Gulaschsuppe",
+        "price": 8.2,
+        "tax": 10,
+        "net_price": 7.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Belegte Semmel",
+        "price": 3.8,
+        "tax": 10,
+        "net_price": 3.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Cappuccino",
+        "price": 5.5,
+        "tax": 10,
+        "net_price": 5.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Mineralwasser 0,33L",
+        "price": 3.2,
+        "tax": 20,
+        "net_price": 2.67,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Goldener Papagei",
+    "category": "Cafe",
+    "items": [
+      {
+        "name": "Kaffee Creme",
+        "price": 4.5,
+        "tax": 10,
+        "net_price": 4.09,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Espresso",
+        "price": 2.9,
+        "tax": 10,
+        "net_price": 2.64,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Brownie",
+        "price": 4.2,
+        "tax": 10,
+        "net_price": 3.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Schinken-Käse Toast",
+        "price": 5.5,
+        "tax": 10,
+        "net_price": 5.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sacherwürstel",
+        "price": 7.9,
+        "tax": 10,
+        "net_price": 7.18,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Latte Macchiato",
+        "price": 4.9,
+        "tax": 10,
+        "net_price": 4.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Croissant",
+        "price": 2.6,
+        "tax": 10,
+        "net_price": 2.36,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Orangensaft 0,2L",
+        "price": 3.9,
+        "tax": 20,
+        "net_price": 3.25,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Vapiano",
+    "category": "Restaurant/Gastronomy",
+    "items": [
+      {
+        "name": "Pasta Carbonara",
+        "price": 12.9,
+        "tax": 10,
+        "net_price": 11.73,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Pizza Margherita",
+        "price": 9.9,
+        "tax": 10,
+        "net_price": 9.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Insalata Cesare",
+        "price": 9.5,
+        "tax": 10,
+        "net_price": 8.64,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Lasagne",
+        "price": 13.5,
+        "tax": 10,
+        "net_price": 12.27,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Panna Cotta",
+        "price": 4.9,
+        "tax": 10,
+        "net_price": 4.45,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Tiramisu",
+        "price": 5.2,
+        "tax": 10,
+        "net_price": 4.73,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Hausgemachte Limonade 0,5L",
+        "price": 3.9,
+        "tax": 20,
+        "net_price": 3.25,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Espresso",
+        "price": 2.9,
+        "tax": 10,
+        "net_price": 2.64,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Cafe Mozart",
+    "category": "Cafe",
+    "items": [
+      {
+        "name": "Kleiner Brauner",
+        "price": 4.5,
+        "tax": 10,
+        "net_price": 4.09,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kaiserschmarrn",
+        "price": 9.8,
+        "tax": 10,
+        "net_price": 8.91,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Sachertorte",
+        "price": 5.9,
+        "tax": 10,
+        "net_price": 5.36,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Eiskaffee",
+        "price": 6.4,
+        "tax": 10,
+        "net_price": 5.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Frühstück Mozart",
+        "price": 13.5,
+        "tax": 10,
+        "net_price": 12.27,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Schinken-Käse-Toast",
+        "price": 5.5,
+        "tax": 10,
+        "net_price": 5.0,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Heiße Schokolade",
+        "price": 5.3,
+        "tax": 10,
+        "net_price": 4.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Tafelwasser 0,25L",
+        "price": 2.9,
+        "tax": 20,
+        "net_price": 2.42,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "Cafe Sacher Wien",
+    "category": "Cafe",
+    "items": [
+      {
+        "name": "Original Sachertorte Stück",
+        "price": 8.9,
+        "tax": 10,
+        "net_price": 8.09,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Wiener Melange",
+        "price": 6.2,
+        "tax": 10,
+        "net_price": 5.64,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Eiskaffee",
+        "price": 7.9,
+        "tax": 10,
+        "net_price": 7.18,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Kaiserschmarrn",
+        "price": 10.9,
+        "tax": 10,
+        "net_price": 9.91,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Belegte Semmel",
+        "price": 4.5,
+        "tax": 10,
+        "net_price": 4.09,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Gulaschsuppe",
+        "price": 9.8,
+        "tax": 10,
+        "net_price": 8.91,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Cappuccino",
+        "price": 6.4,
+        "tax": 10,
+        "net_price": 5.82,
+        "label": "groceries&dinner"
+      },
+      {
+        "name": "Mineralwasser 0,33L",
+        "price": 4.2,
+        "tax": 20,
+        "net_price": 3.5,
+        "label": "groceries&dinner"
+      }
+    ]
+  },
+  {
+    "merchant": "OMV",
+    "category": "Gas Station",
+    "items": [
+      {
+        "name": "Diesel 35,0L",
+        "price": 57.75,
+        "tax": 20,
+        "net_price": 48.13,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 40,5L",
+        "price": 66.08,
+        "tax": 20,
+        "net_price": 55.07,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 25,0L",
+        "price": 40.75,
+        "tax": 20,
+        "net_price": 33.96,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 50,0L",
+        "price": 81.5,
+        "tax": 20,
+        "net_price": 67.92,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 60,0L",
+        "price": 98.4,
+        "tax": 20,
+        "net_price": 82.0,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 45,0L",
+        "price": 73.8,
+        "tax": 20,
+        "net_price": 61.5,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 33,3L",
+        "price": 54.45,
+        "tax": 20,
+        "net_price": 45.38,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 20,0L",
+        "price": 32.6,
+        "tax": 20,
+        "net_price": 27.17,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 55,0L",
+        "price": 89.65,
+        "tax": 20,
+        "net_price": 74.71,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 70,0L",
+        "price": 114.8,
+        "tax": 20,
+        "net_price": 95.67,
+        "label": "Transportation"
+      }
+    ]
+  },
+  {
+    "merchant": "BP",
+    "category": "Gas Station",
+    "items": [
+      {
+        "name": "Diesel 30,0L",
+        "price": 49.8,
+        "tax": 20,
+        "net_price": 41.5,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 36,5L",
+        "price": 60.23,
+        "tax": 20,
+        "net_price": 50.19,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 22,0L",
+        "price": 36.41,
+        "tax": 20,
+        "net_price": 30.34,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 44,0L",
+        "price": 72.92,
+        "tax": 20,
+        "net_price": 60.77,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 52,0L",
+        "price": 86.12,
+        "tax": 20,
+        "net_price": 71.77,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 41,0L",
+        "price": 67.98,
+        "tax": 20,
+        "net_price": 56.65,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 60,0L",
+        "price": 99.0,
+        "tax": 20,
+        "net_price": 82.5,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 24,0L",
+        "price": 39.96,
+        "tax": 20,
+        "net_price": 33.3,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 55,0L",
+        "price": 90.75,
+        "tax": 20,
+        "net_price": 75.63,
+        "label": "Transportation"
+      },
+      {
+        "name": "Diesel 70,0L",
+        "price": 115.5,
+        "tax": 20,
+        "net_price": 96.25,
+        "label": "Transportation"
+      }
+    ]
+  }
+]
