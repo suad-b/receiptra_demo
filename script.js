@@ -981,7 +981,7 @@ async function getFinancialInsights() {
     let chatHistory = [];
     chatHistory.push({ role: "user", parts: [{ text: prompt }] });
     const payload = { contents: chatHistory };
-    const apiKey = "AIzaSyD2NHHY_AVnyC4xwfF7REhFVEhNH4M223Q"; // Provided API Key
+    const apiKey = "AIzaSyB8NyLdFT_nkiHLAXEAWoHqGhUAq-MHS3E"; // Provided API Key
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     const response = await fetch(apiUrl, {
